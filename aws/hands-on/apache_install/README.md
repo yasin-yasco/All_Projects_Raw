@@ -60,7 +60,7 @@ sudo systemctl enable httpd
 
 
 
-8. Set permission of the files and folders under `/var/www/html/` folder to everyone.
+8. Set permission of the files and folders under `/var/www/html/` folder to everyone.# "-R  --> (recursively) bu dosyamin icine ne atarsam atayim kecerli olsun demek" , bu dosyaya yetki veriyoruz ve herkes ulasip okuyabiliyor .
 
 
 sudo chmod -R 777 /var/www/html
